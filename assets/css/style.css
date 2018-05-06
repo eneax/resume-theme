@@ -1,11 +1,11 @@
 body {
-  background-color: rgba(245, 241, 216, .2);
+  background-color: rgba(224, 230, 234, .2);
   color: #868e96;
   font-family: 'Open Sans', serif;
   padding-top: 54px;
 }
 
-nav { background-color: #c0392b; }
+nav { background-color: #1DBFAF; }
 
 button:focus { outline: none; }
 
@@ -33,7 +33,7 @@ h2 { font-size: 3.5rem; }
 }
 
 .firstcharacter {
-  color: rgba(206, 61, 46, .7);
+  color: rgba(21, 191, 175, 1);
   font-weight: 900;
 }
 
@@ -42,20 +42,20 @@ h2 { font-size: 3.5rem; }
   transition: color .3s;
 }
 
-.social-icons a:hover { color: #c0392b; }
+.social-icons a:hover { color: #1DBFAF; }
 .social-icons a .fa-lg { font-size: 1.75rem; }
 
-.fa-ul i { color: rgba(206, 61, 46, .7); }
+.fa-ul i { color: rgba(21, 191, 175, .7); }
 
 a {
-  color: #c0392b;
+  color: #1DBFAF;
   transition: color .3s;
 }
 
 a:hover, 
 a:focus, 
 a:active {
-  color: #ce3d2e;
+  color: #1bb0a1;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -65,25 +65,25 @@ a:active {
 
 .navbar-dark .navbar-nav .nav-link:focus, 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: rgba(245, 241, 216, .75);
+  color: rgba(48, 61, 70, .75);
 }
 
 .navbar-dark .navbar-nav .active > .nav-link, 
 .navbar-dark .navbar-nav .nav-link.active, 
 .navbar-dark .navbar-nav .nav-link.show, 
 .navbar-dark .navbar-nav .show > .nav-link {
-  color: rgba(245, 241, 216, 1);
+  color: rgba(48, 61, 70, 1);
 }
 
 section.resume-section {
-  border-bottom: 1px solid rgba(245, 241, 216, 1);
+  border-bottom: 1px solid rgba(48, 61, 70, .1);
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
 }
 
 section.resume-section .resume-item .resume-date { min-width: none; }
 
-.text-red-color { color: #c0392b !important; }
+.text-acqua-color { color: #1DBFAF !important; }
 
 /*************************
       MEDIA QUERIES
@@ -115,7 +115,7 @@ section.resume-section .resume-item .resume-date { min-width: none; }
   #sideNav .navbar-brand .profile-pic {
     max-width: 15rem;
     max-height: 15rem;
-    border: .5rem solid rgba(245, 241, 216, .4);
+    border: .5rem solid rgba(48, 61, 70, .4);
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .4);
   }
 
